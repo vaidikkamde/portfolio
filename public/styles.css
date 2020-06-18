@@ -39,7 +39,7 @@ body {
   bottom: 0;
   left: 0;
   transform-origin: top left;
-  transform: skewY(6deg);
+  transform: skewY(10deg);
 }
 
 .navigation:after {
@@ -54,7 +54,7 @@ body {
   bottom: 0;
   left: 0;
   transform-origin: top right;
-  transform: skewY(-6deg);
+  transform: skewY(-10deg);
 }
 .pointer {
   cursor: pointer;
@@ -102,8 +102,15 @@ body {
 @media (min-width: 1000px) {
   #blankSpace {
     margin-bottom: 5rem;
-    height: 2.5rem;
+    height: 3rem;
   }
+  .navigation:after{
+	transform: skewY(-6deg);
+  }
+  .navigation:before{
+	transform: skewY(6deg);
+  }
+
 }
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
