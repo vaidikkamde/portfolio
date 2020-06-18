@@ -103,7 +103,7 @@ body {
 @media (min-width: 1000px) {
   #blankSpace {
     margin-bottom: 5rem;
-    height: 4rem;
+    height: 4.15rem;
   }
   .navigation:after{
 	transform: skewY(-6deg);
