@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Navbar navigate={navigate} />
-      <PageDisplayed page={page} />
+      <PageDisplayed page={page} navigate={navigate} />
     </div>
   );
 }

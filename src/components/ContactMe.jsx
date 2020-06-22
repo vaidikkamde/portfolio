@@ -4,13 +4,6 @@ function ContactMe() {
   return (
     <div className="text-center">
       <form className="form-signin">
-        <img
-          className="mb-4"
-          src="/docs/4.5/assets/brand/bootstrap-solid.svg"
-          alt=""
-          width="72"
-          height="72"
-        />
         <h1 className="h3 mb-3 font-weight-normal">Contact Me</h1>
         <label htmlFor="inputEmail" className="sr-only">
           Email address
@@ -21,7 +14,6 @@ function ContactMe() {
           className="form-control"
           placeholder="Email address"
           required
-          autoFocus
         />
         <label htmlFor="inputName" className="sr-only">
           Full Name
